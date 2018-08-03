@@ -3,113 +3,114 @@
 <head>
   <title>后勤计算器</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- 自定义样式 -->
   <link rel="stylesheet" href="./quests/css/styles.css">
 </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3>后勤列表</h3>
-          <!-- 后勤列表 -->
-          <table
-            class="ms-controller table table-hover questTable"
-            ms-controller="table"
-          >
-            <thead>
-              <tr>
-                <th>后勤编号</th>
-                <th>后勤名称</th>
-                <th>任务时间(小时)</th>
-                <th ms-for="($index, el) in @resource">
-                  <div class="dropdown resLab">
-                    <div
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <img class="icon" ms-attr="{ src: el.icon }" alt="">
-                      <span class="text">{{ el.label }}</span>
-                      <span class="caret"></span>
-                    </div>
-                    <ul class="dropdown-menu" aria-labelledby="dLabel">
-                      <li>
-                        <a
-                          href="javascript:void(0);"
-                          ms-click="@filterRes(el.name)"
-                        >取消</a>
-                      </li>
-                      <li>
-                        <a
-                          href="javascript:void(0);"
-                          ms-click="@filterRes(el.name, 'total')"
-                        >总量降序</a>
-                      </li>
-                      <li>
-                        <a
-                          href="javascript:void(0);"
-                          ms-click="@filterRes(el.name, 'hours')"
-                        >时量降序</a>
-                      </li>
-                    </ul>
-                  </div>
-                </th>
-                <th>资源总值</th>
-                <th>额外道具</th>
-                <th>队长等级</th>
-                <th>所需人数</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr ms-for="($index, el) in @list">
-                <th>
-                  <span class="codeLab">
-                    <div class="battleName">{{ el.battleName }}</div>
-                    <div class="code">{{ el.code }}</div>
-                  </span>
-                </th>
-                <td>{{ el.name }}</td>
-                <td class="timeText">{{ el.timeText }}</td>
-                <td class="resValueLab">
-                  <!-- 总量 -->
-                  <div class="total">{{ el.manpower }}</div>
-                  <!-- 每小时量 -->
-                  <div class="hours">{{ el.manpowerHours }}/h</div>
-                </td>
-                <td class="resValueLab">
-                  <!-- 总量 -->
-                  <div class="total">{{ el.ammunition }}</div>
-                  <!-- 每小时量 -->
-                  <div class="hours">{{ el.ammunitionHours }}/h</div>
-                </td>
-                <td class="resValueLab">
-                  <!-- 总量 -->
-                  <div class="total">{{ el.rations }}</div>
-                  <!-- 每小时量 -->
-                  <div class="hours">{{ el.rationsHours }}/h</div>
-                </td>
-                <td class="resValueLab">
-                  <!-- 总量 -->
-                  <div class="total">{{ el.sparePart }}</div>
-                  <!-- 每小时量 -->
-                  <div class="hours">{{ el.sparePartHours }}/h</div>
-                </td>
-                <td>{{ el.total }}</td>
-                <td>
-                  <kbd
-                    ms-for="($index, el) in @el.extra"
-                  >{{ el.name }}</kbd>
-                </td>
-                <td>{{ el.captainLevel }}</td>
-                <td>{{ el.requiredPeople }}</td>
-              </tr>
-            </tbody>
-          </table>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">少前助手</a>
+        </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">后勤列表 <span class="sr-only">(current)</span></a></li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <div class="tb-container">
+      <!-- 后勤列表 -->
+      <table
+        class="ms-controller table table-hover questTable"
+        ms-controller="table"
+      >
+        <thead data-spy="affix" data-offset-top="60">
+          <tr>
+            <th class="theadBase">后勤编号</th>
+            <th class="theadBase hidden-xs">后勤名称</th>
+            <th class="theadTime">任务时间(小时)</th>
+            <th ms-for="($index, el) in @resource" class="resValueHead">
+              <div class="dropdown resLab">
+                <div
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <img class="icon" ms-attr="{ src: el.icon }" alt="">
+                  <span class="text">{{ el.label }}</span>
+                  <span class="caret"></span>
+                </div>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                  <li>
+                    <a
+                      href="javascript:void(0);"
+                      ms-click="@filterRes(el.name)"
+                    >取消</a>
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0);"
+                      ms-click="@filterRes(el.name, 'total')"
+                    >总量降序</a>
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0);"
+                      ms-click="@filterRes(el.name, 'hours')"
+                    >时量降序</a>
+                  </li>
+                </ul>
+              </div>
+            </th>
+            <th class="theadBase hidden-xs">资源总值</th>
+            <th class="theadBase">额外道具</th>
+            <th class="theadBase hidden-xs">队长等级</th>
+            <th class="theadBase hidden-xs">所需人数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ms-for="($index, el) in @list">
+            <td class="theadBase">
+              <span class="codeLab">
+                <div class="battleName hidden-xs">{{ el.battleName }}</div>
+                <div class="code">{{ el.code }}</div>
+              </span>
+            </td>
+            <td class="theadBase hidden-xs">{{ el.name }}</td>
+            <td class="theadTime timeText">{{ el.timeText }}</td>
+            <td ms-for="($index, rel) in @resource" class="theadBase resValueLab">
+              <div>
+                <!-- 总量 -->
+                <div class="total">{{ el[rel.name] }}</div>
+                <div class="line"></div>
+                <!-- 每小时量 -->
+                <div class="hours">{{ el[rel.name + 'Hours'] }}/h</div>
+              </div>
+            </td>
+            <td class="theadBase hidden-xs totalValue">{{ el.total }}</td>
+            <td class="theadBase">
+              <kbd
+                ms-for="($index, el) in @el.extra"
+              >{{ el.name }}</kbd>
+            </td>
+            <td class="theadBase hidden-xs">{{ el.captainLevel }}</td>
+            <td class="theadBase hidden-xs">{{ el.requiredPeople }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </body>
   <!-- js库 -->

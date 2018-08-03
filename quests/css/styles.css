@@ -6,15 +6,44 @@
   visibility: hidden
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+/* 表格数据高度为 48px 48-8-8 = 32 */
+
 /* 后勤列表表格 */
+.tb-container {
+  width: 80em;
+  margin: 0 auto;
+}
 .questTable {
+  position: relative;
+  table-layout:fixed;
   font-family: 'Mohave', 'Microsoft Yahei';
 }
+.questTable>thead>tr>th {
+  border-bottom: none;
+}
+.theadBase {
+  width: 7em;
+}
+.theadTime {
+  width: 10em;
+}
 .questTable thead {
+  width: 100%;
   background: #000;
   border-bottom: 4px solid #FFCC00;
-  font-size: 16px;
+  font-size: 1em;
   color: #fff;
+  z-index: 100;
+}
+.questTable thead.affix {
+  width: 80em;
 }
 .questTable tbody tr:hover {
   border: 2px solid #FFCC00;
@@ -29,8 +58,8 @@
   min-width: 40px;
 }
 .questTable .resLab .icon {
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
 }
 .questTable .resLab .text {
   text-align: center;
@@ -44,22 +73,107 @@
   background-color: #fff;
 }
 .questTable .codeLab .battleName {
-  font-size: 14px;
+  height: 0.875em;
+  line-height: 0.875em;
+  font-size: 0.875em;
 }
 .questTable .codeLab .code {
-  font-size: 18px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 1em;
 }
 .timeText {
-  font-size: 26px;
+  height: 32px;
+  line-height: 32px !important;
+  font-size: 1.5em;
 }
 /* 资源值栏 */
+.resValueHead {
+  width: 7em;
+}
+.questTable tbody .resValueLab {
+  height: 48px;
+  padding: 0;
+}
+.resValueLab > div {
+  position: relative;
+  height: 48px;
+  line-height: 48px;
+  width: 7em;
+  margin: 0;
+}
 .resValueLab .total {
-  padding: 0 4px;
-  font-size: 20px;
+  position: absolute;
+  top: 4px;
+  right: 49%;
+  width: 50%;
+  line-height: 1em;
+  text-align: right;
+  font-size: 1.25em;
+}
+.resValueLab .line {
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  top: 60%;
+  left: 53%;
+  margin-left: -20%;
+  background-color: #FFCC00;
+  transform: rotate(150deg);
 }
 .resValueLab .hours {
-  padding: 0 4px;
-  background-color: #000000;
-  color: #FFCC00;
-  font-size: 16px;
+  position: absolute;
+  bottom: 4px;
+  left: 49%;
+  width: 50%;
+  /* color: #FFCC00; */
+  text-align: left;
+  line-height: 1em;
+  font-size: 0.8em;
+}
+.totalValue {
+  font-size: 1.25em;
+  text-align: right;
+}
+
+/* 响应式代码 */
+@media (max-width: 768px) {
+  body {
+    font-size: 8px;
+  }
+  .tb-container {
+    width: 24em;
+  }
+  .questTable thead.affix {
+    position: relative;
+    width: 24em;
+  }
+  .theadBase,
+  .theadTime {
+    width: 3.5em;
+  }
+  .resValueHead {
+    width: 3.5em;
+  }
+
+  .resValueHead,
+  .resValueLab > div {
+    width: 40px;
+  }
+  .resValueLab .total,
+  .resValueLab .hours {
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .resValueLab .line {
+    top: 50%;
+    left: 50%;
+    margin-left: -15%;
+    transform: rotate(0deg);
+  }
+  kbd {
+    display: inline-block;
+  }
 }
