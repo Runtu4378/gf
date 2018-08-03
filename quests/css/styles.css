@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Mohave;
+  src: url('/dist/font/Mohave-SemiBold.otf');
+}
+
+/* 后勤列表表格 */
+.questTable {
+  font-family: 'Mohave', 'Microsoft Yahei';
+}
+.questTable thead {
+  background: #000;
+  border-bottom: 4px solid #FFCC00;
+  font-size: 16px;
+  color: #fff;
+}
+.questTable tbody tr:hover {
+  border: 2px solid #FFCC00;
+  border-width: 0 2px;
+}
+/* 资源表头 */
+.questTable .resLab .icon {
+  width: 24px;
+  height: 24px;
+}
+.questTable .resLab .text {
+  text-align: center;
+}
+/* 后勤编号 */
+.questTable .codeLab {
+  background-color: #fff;
+}
+.questTable .codeLab .battleName {
+  font-size: 14px;
+}
+.questTable .codeLab .code {
+  font-size: 18px;
+}
+.timeText {
+  font-size: 26px;
+}
+/* 资源值栏 */
+.resValueLab .total {
+  padding: 0 4px;
+  font-size: 20px;
+}
+.resValueLab .hours {
+  padding: 0 4px;
+  background-color: #000000;
+  color: #FFCC00;
+  font-size: 16px;
+}

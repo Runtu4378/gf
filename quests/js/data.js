@@ -1,5 +1,12 @@
 // 后勤数据库
 $(function initDB(params) {
+  // 资源资料库
+  var resource = [
+    { _id: 'res-01', name: '人力', icon: '/dist/img/60px-Icon_manpower.png' },
+    { _id: 'res-02', name: '弹药', icon: '/dist/img/60px-Icon_ammo.png' },
+    { _id: 'res-03', name: '口粮', icon: '/dist/img/60px-Icon_ration.png' },
+    { _id: 'res-04', name: '零件', icon: '/dist/img/60px-Icon_parts.png' },
+  ]
   // 额外道具库
   var extraDB = [
     { _id: 'e01', name: '快速建造契约' },
@@ -34,5 +41,6 @@ $(function initDB(params) {
   window.DB = {
     quest: questDataBase,
     extra: extraDB,
+    resource: resource,
   }
 })
