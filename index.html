@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>后勤计算器</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <script src="./dist/avalon.js"></script> -->
+        <script src="https://unpkg.com/avalon2@2.2.8/dist/avalon.js"></script>
+        <script>
+            var vm = avalon.define({
+                $id: "test",
+                name: "司徒正美",
+                array: [11,22,33]
+            })
+            setTimeout(function(){
+               vm.array.set(0, 444)
+            }, 3000)
+        </script>
+    </head>
+
+    <body ms-controller="test">
+        <input ms-duplex="@name">
+        <p>Hello,{{@name}}!</p>
+        <ul>
+           <li ms-for="($index,el) in @array">{{$index}}--{{el}}</li>
+        </ul>
+    </body>
+</html>
