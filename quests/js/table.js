@@ -1,7 +1,7 @@
 // 表格的数据处理逻辑
 $(function initVMTable(params) {
   var dealTime = function (getMin) {
-    var hour = getMin / 60;
+    var hour = parseInt(getMin / 60, 10);
     var hourText = '' + hour;
     var min = getMin % 60;
     var minText = '' + min;
