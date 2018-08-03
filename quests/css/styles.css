@@ -2,6 +2,9 @@
   font-family: Mohave;
   src: url('/dist/font/Mohave-SemiBold.otf');
 }
+.ms-controller{
+  visibility: hidden
+}
 
 /* 后勤列表表格 */
 .questTable {
@@ -18,12 +21,23 @@
   border-width: 0 2px;
 }
 /* 资源表头 */
+.questTable .resLab {
+  cursor: pointer;
+}
+.questTable .dropdown-menu {
+  width: 100%;
+  min-width: 40px;
+}
 .questTable .resLab .icon {
   width: 24px;
   height: 24px;
 }
 .questTable .resLab .text {
   text-align: center;
+}
+.questTable .resLab .caret {
+  margin-left: 8px;
+  border-width: 6px;
 }
 /* 后勤编号 */
 .questTable .codeLab {
