@@ -1,6 +1,6 @@
 @font-face {
   font-family: Mohave;
-  src: url('/dist/font/Mohave-SemiBold.otf');
+  src: url('./dist/font/Mohave-SemiBold.otf');
 }
 .ms-controller{
   visibility: hidden
