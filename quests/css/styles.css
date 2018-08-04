@@ -136,6 +136,25 @@ body {
   text-align: right;
 }
 
+/* 额外资源图标 */
+.ex-item-con {
+  padding: 2px 2px !important;
+}
+.ex-item {
+  display: block;
+  height: 1.6em;
+}
+.ex-item .icon {
+  width: 1.6em;
+  height: 1.6em;
+  margin-right: 2px;
+}
+.ex-item .text {
+  height: 1.6em;
+  line-height: 1.6em;
+  font-size: 1em;
+}
+
 /* 响应式代码 */
 @media (max-width: 768px) {
   body {
@@ -172,8 +191,5 @@ body {
     left: 50%;
     margin-left: -15%;
     transform: rotate(0deg);
-  }
-  kbd {
-    display: inline-block;
   }
 }

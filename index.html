@@ -101,10 +101,14 @@
               </div>
             </td>
             <td class="theadBase hidden-xs totalValue">{{ el.total }}</td>
-            <td class="theadBase">
-              <kbd
+            <td class="theadBase ex-item-con">
+              <div
                 ms-for="($index, el) in @el.extra"
-              >{{ el.name }}</kbd>
+                class="ex-item"
+              >
+                <img class="icon" ms-attr="{ src: el.icon }">
+                <span class="text">{{ el.name }}</span>
+              </div>
             </td>
             <td class="theadBase hidden-xs">{{ el.captainLevel }}</td>
             <td class="theadBase hidden-xs">{{ el.requiredPeople }}</td>
