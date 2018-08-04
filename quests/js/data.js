@@ -9,11 +9,11 @@ $(function initDB(params) {
   ];
   // 额外道具库
   var extraDB = [
-    { _id: 'e00', name: '快建', icon: '../../dist/img/Item_Quick_Production_Contract.png' }, /** 0 */
-    { _id: 'e01', name: '快修', icon: '../../dist/img/Item_Quick_Restoration_Contract.png' }, /** 1 */
-    { _id: 'e02', name: '人形契', icon: '../../dist/img/Item_T-Doll_Contract.png' }, /** 2 */
-    { _id: 'e03', name: '装备契', icon: '../../dist/img/Item_Equipment_Contract.png' }, /** 3 */
-    { _id: 'e04', name: '采购币', icon: '../../dist/img/Item_Token.png' } /** 4 */
+    { _id: 'e00', name: '快建', icon: './dist/img/Item_Quick_Production_Contract.png' }, /** 0 */
+    { _id: 'e01', name: '快修', icon: './dist/img/Item_Quick_Restoration_Contract.png' }, /** 1 */
+    { _id: 'e02', name: '人形契', icon: './dist/img/Item_T-Doll_Contract.png' }, /** 2 */
+    { _id: 'e03', name: '装备契', icon: './dist/img/Item_Equipment_Contract.png' }, /** 3 */
+    { _id: 'e04', name: '采购币', icon: './dist/img/Item_Token.png' } /** 4 */
   ];
 
   // 战役名常量

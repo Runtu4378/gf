@@ -75,16 +75,17 @@ $(function initVMTable(params) {
         },
       },
     },
-    filterRes: function (target, type) {
+    filterRes: function (target, value) {
       let filterType
-      if (type === 'total') {
-        filterType = target
-        vmTable.filter = true
-      } else if (type === 'hours') {
-        filterType = target + 'Hours'
-        vmTable.filter = true
-      } else {
+      if (!target) {
         vmTable.filter = false
+        return
+      } else if (target === 'total') {
+        filterType = value
+        vmTable.filter = { type: target, value: filterType }
+      } else if (target === 'hours') {
+        filterType = value + 'Hours'
+        vmTable.filter = { type: target, value: filterType }
       }
       vmTable.filterList = bubble(vmTable.baseList.concat([]), filterType)
     },
