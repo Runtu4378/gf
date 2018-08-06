@@ -29,7 +29,7 @@ $(function initDB(params) {
   var BATTLE_NAME_NINE = '第九战役';
   var BATTLE_NAME_TEN   = '第十战役';
 
-  // 第零战役
+  // 后勤数组
   var battle_zero = [
     {
       code: '0-1', name: '应援训练', time: 50, battleName: BATTLE_NAME_ZERO,
@@ -52,7 +52,6 @@ $(function initDB(params) {
       extra: [ extraDB[4] ], captainLevel: 50, requiredPeople: 5
     }
   ];
-  // 第一战役
   var battle_one = [
     {
       code: '1-1', name: '热身运动', time: 15, battleName: BATTLE_NAME_ONE,

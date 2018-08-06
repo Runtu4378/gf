@@ -136,6 +136,15 @@ body {
   text-align: right;
 }
 
+.extra-filter {
+  padding-top: 0;
+}
+.extra-filter .dropdown-header {
+  white-space: normal;
+  background-color: #000;
+  color: #FFCC00;
+}
+
 /* 额外资源图标 */
 .ex-item-con {
   padding: 2px 2px !important;
@@ -153,6 +162,22 @@ body {
   height: 1.6em;
   line-height: 1.6em;
   font-size: 1em;
+}
+
+.dropdown-active {
+  background-color: #000;
+}
+.dropdown-active > a {
+  color: #FFCC00 !important;
+}
+.dropdown-active > a:hover {
+  background-color: #000 !important;
+}
+.dropdown-active > a:before {
+  content: '>';
+  display: inline-block;
+  margin-right: 4px;
+  color: #FFCC00;
 }
 
 /* 响应式代码 */

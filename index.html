@@ -60,23 +60,55 @@
                       ms-click="@filterRes()"
                     >取消</a>
                   </li>
-                  <li>
+                  <li
+                    :class="@filter && @filter.type === 'produce' && @filter.value ===  el.name && 'dropdown-active'"
+                  >
                     <a
                       href="javascript:void(0);"
-                      ms-click="@filterRes('total', el.name)"
+                      ms-click="@filterRes('produce', el.name)"
                     >总量降序</a>
                   </li>
-                  <li>
+                  <li
+                    :class="@filter && @filter.type === 'produce' && @filter.value ===  el.name + 'Hours' && 'dropdown-active'"
+                  >
                     <a
                       href="javascript:void(0);"
-                      ms-click="@filterRes('hours', el.name)"
+                      ms-click="@filterRes('produce', el.name + 'Hours')"
                     >时量降序</a>
                   </li>
                 </ul>
               </div>
             </th>
             <th class="theadBase hidden-xs">资源总值</th>
-            <th class="theadBase">额外道具</th>
+            <th class="theadBase">
+              <div class="dropdown resLab">
+                <div
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  额外道具 <span class="caret"></span>
+                </div>
+                <ul class="dropdown-menu extra-filter" aria-labelledby="dLabel">
+                  <li class="dropdown-header">根据产能效率排序</li>
+                  <li>
+                    <a
+                      href="javascript:void(0);"
+                      ms-click="@filterRes()"
+                    >清空</a>
+                  </li>
+                  <li
+                    ms-for="($index, el) in @extra"
+                    :class="@filter && @filter.type === 'extra' && @filter.value ===  el._id && 'dropdown-active'"
+                  >
+                    <a
+                      href="javascript:void(0);"
+                      ms-click="@filterRes('extra', el._id)"
+                    >{{ el.name }}</a>
+                  </li>
+                </ul>
+              </div>
+            </th>
             <th class="theadBase hidden-xs">队长等级</th>
             <th class="theadBase hidden-xs">所需人数</th>
           </tr>
