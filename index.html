@@ -148,6 +148,43 @@
         </tbody>
       </table>
     </div>
+    <!-- 一键咸鱼 -->
+    <div
+      class="salted-fish"
+      data-toggle="modal"
+      data-target="#myModal"
+    >一键咸鱼</div>
+    <!-- 后勤序列条件选择弹窗 -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      ms-controller="table"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">咸鱼条件</h4>
+          </div>
+          <div class="modal-body">
+            <h4>后勤时长</h4>
+            时：<input type="text">
+            分：<input type="text"><br />
+            <h4>资源类别：</h4>
+            <input type="text"><br />
+            <h4>额外道具：</h4>
+            <input type="text"><br />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-primary" ms-click="@sfCount()">试算后勤序列</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <!-- js库 -->
   <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>

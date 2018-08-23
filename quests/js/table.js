@@ -60,7 +60,7 @@ $(function initVMTable(params) {
     } else if (!filterFunc || typeof filterFunc !== 'function') {
       throw new Error('filterFunc is required')
     }
-    const newAry = arr.concat([])
+    var newAry = arr.concat([])
     var i = newAry.length, j;
     var tempExchangVal;
     while (i > 0) {
@@ -93,6 +93,65 @@ $(function initVMTable(params) {
           return vmTable.baseList;
         },
       },
+    },
+    // 咸鱼表单相关数据
+    sf_time: 1440, // 预计时长（分钟）
+    sf_res: ['manpower', 'ammunition', 'rations', 'sparePart'],
+    sf_extra: [],
+    // 咸鱼表单数据格式化
+    sf_res_format: function (e) {
+      // 无选择时返回空数组
+      var value = e.target.value
+      if (!value) {
+        vmTable.sf_res = []
+      }
+    },
+    // 筛选后勤列表
+    filterSf: function () {
+      var baseList = vmTable.list.concat([])
+      var time = vmTable.sf_time
+      var res = vmTable.sf_res
+      var extra = vmTable.sf_extra
+      return baseList.filter(function (ele) {
+        var ifReturn = false
+        if (ele.time <= time) {
+          ifReturn = true
+        } else {
+          return false
+        }
+        // 资源筛选
+        for (var i = 0; i < res.length; i += 1) {
+          if (parseInt(ele[res[i]], 10) > 0) {
+            ifReturn = true
+          } else {
+            return false
+          }
+        }
+        // 道具筛选
+        for (var j = 0; j < extra.length; j += 1) {
+          if (filterObjArray(ele.extra, '_id', extra[j])) {
+            ifReturn = true
+          } else {
+            return false
+          }
+        }
+        return ifReturn
+      })
+    },
+    // 计算咸鱼后勤序列
+    sfCount: function () {
+      // 根据时间、资源、额外道具筛选后勤列表
+      var filterList = vmTable.filterSf()
+      console.log(filterList.map(function (d) {
+        return '[' + d.code + ']' + '\n'
+        + '|' + d.manpower + '-' + d.ammunition + '-' + d.rations + '-' + d.sparePart + '\n'
+        + '|' + d.extra.map(function (e) {
+          return e.name
+        }).join(' ')
+      }).join('\n------\n\n'))
+      console.log(filterList.length)
+      // 排列组合
+      // 生成最优方案
     },
     filterRes: function (target, value) {
       if (!target) {

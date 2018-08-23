@@ -19,6 +19,7 @@ body {
 .tb-container {
   width: 80em;
   margin: 0 auto;
+  padding-bottom: 7em;
 }
 .questTable {
   position: relative;
@@ -178,6 +179,21 @@ body {
   display: inline-block;
   margin-right: 4px;
   color: #FFCC00;
+}
+/* 一键咸鱼 */
+.salted-fish {
+  position: fixed;
+  width: 6em;
+  height: 6em;
+  right: 20px;
+  bottom: 20px;
+  border: 2px solid #000;
+  background-color: #FFCC00;
+  border-radius: 3em;
+  text-align: center;
+  cursor: pointer;
+
+  line-height: 6em;
 }
 
 /* 响应式代码 */
