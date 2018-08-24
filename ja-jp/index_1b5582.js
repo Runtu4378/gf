@@ -26592,8 +26592,9 @@
         }
         return r(LocalStorageClass, [ {
             "key": "get",
-            "value": function get(e) {
-                return this.lg.getItem(e) || void 0;
+            "value": function get(e, n) {
+                var t = this.lg.getItem(e);
+                return "number" === n && (t = parseInt(t, 10)), t || void 0;
             }
         }, {
             "key": "set",
@@ -36576,8 +36577,8 @@
                     return regeneratorRuntime.wrap(function initLG$(e) {
                         for (;;) switch (e.prev = e.next) {
                           case 0:
-                            if (console.log("init localStorage..."), t = l.default.get("team_select_id"), r = !0, 
-                            void 0 === t) {
+                            if (console.log("init localStorage..."), t = l.default.get("team_select_id", "number"), 
+                            r = !0, void 0 === t) {
                                 e.next = 7;
                                 break;
                             }
@@ -36587,7 +36588,7 @@
                             });
 
                           case 7:
-                            if (o = l.default.get("mission_select_id"), a = !0, void 0 === o) {
+                            if (o = l.default.get("mission_select_id", "number"), a = !0, void 0 === o) {
                                 e.next = 13;
                                 break;
                             }
@@ -36598,8 +36599,8 @@
                             });
 
                           case 13:
-                            return (i = l.default.get("campaign_select_id")) || (i = Object.keys(c)[0]), e.next = 17, 
-                            u.resolve({
+                            return (i = l.default.get("campaign_select_id", "number")) || (i = Object.keys(c)[0]), 
+                            e.next = 17, u.resolve({
                                 "type": "maps/selectCampaign",
                                 "payload": i,
                                 "autoChild": a
