@@ -40,7 +40,7 @@
         return __webpack_require__.d(t, "a", t), t;
     }, __webpack_require__.o = function(e, t) {
         return Object.prototype.hasOwnProperty.call(e, t);
-    }, __webpack_require__.p = "/gf/", __webpack_require__(__webpack_require__.s = 1764);
+    }, __webpack_require__.p = "/gf/", __webpack_require__(__webpack_require__.s = 1767);
 }([ function(e, t, n) {
     e.exports = n(102)(15);
 }, function(e, t, n) {
@@ -12628,29 +12628,29 @@
     });
     var r = [ {
         "_id": "e00",
-        "name": "快建",
+        "name": "logistic.extra.e00",
         "icon": "/gf/static/img/resource/Item_Quick_Production_Contract.png"
     }, {
         "_id": "e01",
-        "name": "快修",
+        "name": "logistic.extra.e01",
         "icon": "/gf/static/img/resource/Item_Quick_Restoration_Contract.png"
     }, {
         "_id": "e02",
-        "name": "人形契",
+        "name": "logistic.extra.e02",
         "icon": "/gf/static/img/resource/Item_T-Doll_Contract.png"
     }, {
         "_id": "e03",
-        "name": "装备契",
+        "name": "logistic.extra.e03",
         "icon": "/gf/static/img/resource/Item_Equipment_Contract.png"
     }, {
         "_id": "e04",
-        "name": "采购币",
+        "name": "logistic.extra.e04",
         "icon": "/gf/static/img/resource/Item_Token.png"
     } ], a = [].concat([ {
         "code": "0-1",
-        "name": "应援训练",
+        "name": "logistic.supportName.001",
         "time": 50,
-        "battleName": "第零战役",
+        "battleName": "logistic.battle.00",
         "manpower": 0,
         "ammunition": 145,
         "rations": 145,
@@ -12660,9 +12660,9 @@
         "requiredPeople": 4
     }, {
         "code": "0-2",
-        "name": "梯队集训",
+        "name": "logistic.supportName.002",
         "time": 180,
-        "battleName": "第零战役",
+        "battleName": "logistic.battle.00",
         "manpower": 550,
         "ammunition": 0,
         "rations": 0,
@@ -12672,9 +12672,9 @@
         "requiredPeople": 5
     }, {
         "code": "0-3",
-        "name": "特种支援",
+        "name": "logistic.supportName.003",
         "time": 720,
-        "battleName": "第零战役",
+        "battleName": "logistic.battle.00",
         "manpower": 900,
         "ammunition": 900,
         "rations": 900,
@@ -12684,9 +12684,9 @@
         "requiredPeople": 5
     }, {
         "code": "0-4",
-        "name": "联合演习",
+        "name": "logistic.supportName.004",
         "time": 1440,
-        "battleName": "第零战役",
+        "battleName": "logistic.battle.00",
         "manpower": 0,
         "ammunition": 1200,
         "rations": 800,
@@ -12696,9 +12696,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "1-1",
-        "name": "热身运动",
+        "name": "logistic.supportName.011",
         "time": 15,
-        "battleName": "第一战役",
+        "battleName": "logistic.battle.01",
         "manpower": 10,
         "ammunition": 30,
         "rations": 15,
@@ -12708,9 +12708,9 @@
         "requiredPeople": 2
     }, {
         "code": "1-2",
-        "name": "巡逻戒严",
+        "name": "logistic.supportName.012",
         "time": 30,
-        "battleName": "第一战役",
+        "battleName": "logistic.battle.01",
         "manpower": 0,
         "ammunition": 40,
         "rations": 60,
@@ -12720,9 +12720,9 @@
         "requiredPeople": 2
     }, {
         "code": "1-3",
-        "name": "伤员搬运",
+        "name": "logistic.supportName.013",
         "time": 60,
-        "battleName": "第一战役",
+        "battleName": "logistic.battle.01",
         "manpower": 30,
         "ammunition": 0,
         "rations": 30,
@@ -12732,9 +12732,9 @@
         "requiredPeople": 3
     }, {
         "code": "1-4",
-        "name": "全境搜查",
+        "name": "logistic.supportName.014",
         "time": 120,
-        "battleName": "第一战役",
+        "battleName": "logistic.battle.01",
         "manpower": 160,
         "ammunition": 160,
         "rations": 0,
@@ -12744,9 +12744,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "2-1",
-        "name": "前线侦查",
+        "name": "logistic.supportName.021",
         "time": 40,
-        "battleName": "第二战役",
+        "battleName": "logistic.battle.02",
         "manpower": 100,
         "ammunition": 0,
         "rations": 0,
@@ -12756,9 +12756,9 @@
         "requiredPeople": 3
     }, {
         "code": "2-2",
-        "name": "后方运输",
+        "name": "logistic.supportName.022",
         "time": 90,
-        "battleName": "第二战役",
+        "battleName": "logistic.battle.02",
         "manpower": 60,
         "ammunition": 200,
         "rations": 80,
@@ -12768,9 +12768,9 @@
         "requiredPeople": 4
     }, {
         "code": "2-3",
-        "name": "工厂快递",
+        "name": "logistic.supportName.023",
         "time": 240,
-        "battleName": "第二战役",
+        "battleName": "logistic.battle.02",
         "manpower": 10,
         "ammunition": 10,
         "rations": 10,
@@ -12780,9 +12780,9 @@
         "requiredPeople": 5
     }, {
         "code": "2-4",
-        "name": "采集数据",
+        "name": "logistic.supportName.024",
         "time": 360,
-        "battleName": "第二战役",
+        "battleName": "logistic.battle.02",
         "manpower": 0,
         "ammunition": 250,
         "rations": 600,
@@ -12792,9 +12792,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "3-1",
-        "name": "强化工事",
+        "name": "logistic.supportName.031",
         "time": 20,
-        "battleName": "第三战役",
+        "battleName": "logistic.battle.03",
         "manpower": 50,
         "ammunition": 0,
         "rations": 75,
@@ -12804,9 +12804,9 @@
         "requiredPeople": 4
     }, {
         "code": "3-2",
-        "name": "截获密报",
+        "name": "logistic.supportName.032",
         "time": 45,
-        "battleName": "第三战役",
+        "battleName": "logistic.battle.03",
         "manpower": 0,
         "ammunition": 120,
         "rations": 70,
@@ -12816,9 +12816,9 @@
         "requiredPeople": 5
     }, {
         "code": "3-3",
-        "name": "交通管制",
+        "name": "logistic.supportName.033",
         "time": 90,
-        "battleName": "第三战役",
+        "battleName": "logistic.battle.03",
         "manpower": 0,
         "ammunition": 300,
         "rations": 0,
@@ -12828,9 +12828,9 @@
         "requiredPeople": 4
     }, {
         "code": "3-4",
-        "name": "封锁密道",
+        "name": "logistic.supportName.034",
         "time": 300,
-        "battleName": "第三战役",
+        "battleName": "logistic.battle.03",
         "manpower": 0,
         "ammunition": 0,
         "rations": 300,
@@ -12840,9 +12840,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "4-1",
-        "name": "视野支援",
+        "name": "logistic.supportName.041",
         "time": 60,
-        "battleName": "第四战役",
+        "battleName": "logistic.battle.04",
         "manpower": 0,
         "ammunition": 185,
         "rations": 185,
@@ -12852,9 +12852,9 @@
         "requiredPeople": 4
     }, {
         "code": "4-2",
-        "name": "切断补给",
+        "name": "logistic.supportName.042",
         "time": 120,
-        "battleName": "第四战役",
+        "battleName": "logistic.battle.04",
         "manpower": 0,
         "ammunition": 0,
         "rations": 0,
@@ -12864,9 +12864,9 @@
         "requiredPeople": 5
     }, {
         "code": "4-3",
-        "name": "窃取地图",
+        "name": "logistic.supportName.043",
         "time": 360,
-        "battleName": "第四战役",
+        "battleName": "logistic.battle.04",
         "manpower": 800,
         "ammunition": 550,
         "rations": 0,
@@ -12876,9 +12876,9 @@
         "requiredPeople": 5
     }, {
         "code": "4-4",
-        "name": "坐标定位",
+        "name": "logistic.supportName.044",
         "time": 480,
-        "battleName": "第四战役",
+        "battleName": "logistic.battle.04",
         "manpower": 400,
         "ammunition": 400,
         "rations": 400,
@@ -12888,9 +12888,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "5-1",
-        "name": "例行检阅",
+        "name": "logistic.supportName.051",
         "time": 30,
-        "battleName": "第五战役",
+        "battleName": "logistic.battle.05",
         "manpower": 0,
         "ammunition": 0,
         "rations": 100,
@@ -12900,9 +12900,9 @@
         "requiredPeople": 4
     }, {
         "code": "5-2",
-        "name": "现场救援",
+        "name": "logistic.supportName.052",
         "time": 150,
-        "battleName": "第五战役",
+        "battleName": "logistic.battle.05",
         "manpower": 0,
         "ammunition": 600,
         "rations": 300,
@@ -12912,9 +12912,9 @@
         "requiredPeople": 5
     }, {
         "code": "5-3",
-        "name": "路线追踪",
+        "name": "logistic.supportName.053",
         "time": 360,
-        "battleName": "第五战役",
+        "battleName": "logistic.battle.05",
         "manpower": 800,
         "ammunition": 400,
         "rations": 400,
@@ -12924,9 +12924,9 @@
         "requiredPeople": 5
     }, {
         "code": "5-4",
-        "name": "维稳工作",
+        "name": "logistic.supportName.054",
         "time": 420,
-        "battleName": "第五战役",
+        "battleName": "logistic.battle.05",
         "manpower": 100,
         "ammunition": 0,
         "rations": 0,
@@ -12936,9 +12936,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "6-1",
-        "name": "协助救援",
+        "name": "logistic.supportName.061",
         "time": 120,
-        "battleName": "第六战役",
+        "battleName": "logistic.battle.06",
         "manpower": 300,
         "ammunition": 300,
         "rations": 0,
@@ -12948,9 +12948,9 @@
         "requiredPeople": 5
     }, {
         "code": "6-2",
-        "name": "远程侦查",
+        "name": "logistic.supportName.062",
         "time": 180,
-        "battleName": "第六战役",
+        "battleName": "logistic.battle.06",
         "manpower": 0,
         "ammunition": 200,
         "rations": 550,
@@ -12960,9 +12960,9 @@
         "requiredPeople": 5
     }, {
         "code": "6-3",
-        "name": "提取科技",
+        "name": "logistic.supportName.063",
         "time": 300,
-        "battleName": "第六战役",
+        "battleName": "logistic.battle.06",
         "manpower": 0,
         "ammunition": 0,
         "rations": 200,
@@ -12972,9 +12972,9 @@
         "requiredPeople": 5
     }, {
         "code": "6-4",
-        "name": "战场搜索",
+        "name": "logistic.supportName.064",
         "time": 720,
-        "battleName": "第六战役",
+        "battleName": "logistic.battle.06",
         "manpower": 800,
         "ammunition": 800,
         "rations": 800,
@@ -12984,9 +12984,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "7-1",
-        "name": "监视据点",
+        "name": "logistic.supportName.071",
         "time": 150,
-        "battleName": "第七战役",
+        "battleName": "logistic.battle.07",
         "manpower": 650,
         "ammunition": 0,
         "rations": 650,
@@ -12996,9 +12996,9 @@
         "requiredPeople": 5
     }, {
         "code": "7-2",
-        "name": "接应队友",
+        "name": "logistic.supportName.072",
         "time": 240,
-        "battleName": "第七战役",
+        "battleName": "logistic.battle.07",
         "manpower": 0,
         "ammunition": 650,
         "rations": 0,
@@ -13008,9 +13008,9 @@
         "requiredPeople": 5
     }, {
         "code": "7-3",
-        "name": "清理道路",
+        "name": "logistic.supportName.073",
         "time": 330,
-        "battleName": "第七战役",
+        "battleName": "logistic.battle.07",
         "manpower": 900,
         "ammunition": 600,
         "rations": 600,
@@ -13020,9 +13020,9 @@
         "requiredPeople": 5
     }, {
         "code": "7-4",
-        "name": "追踪傀儡",
+        "name": "logistic.supportName.074",
         "time": 480,
-        "battleName": "第七战役",
+        "battleName": "logistic.battle.07",
         "manpower": 250,
         "ammunition": 250,
         "rations": 250,
@@ -13032,9 +13032,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "8-1",
-        "name": "筹集资料",
+        "name": "logistic.supportName.081",
         "time": 60,
-        "battleName": "第八战役",
+        "battleName": "logistic.battle.08",
         "manpower": 150,
         "ammunition": 150,
         "rations": 150,
@@ -13044,9 +13044,9 @@
         "requiredPeople": 5
     }, {
         "code": "8-2",
-        "name": "解析碎片",
+        "name": "logistic.supportName.082",
         "time": 180,
-        "battleName": "第八战役",
+        "battleName": "logistic.battle.08",
         "manpower": 0,
         "ammunition": 0,
         "rations": 0,
@@ -13056,9 +13056,9 @@
         "requiredPeople": 5
     }, {
         "code": "8-3",
-        "name": "勘探现场",
+        "name": "logistic.supportName.083",
         "time": 360,
-        "battleName": "第八战役",
+        "battleName": "logistic.battle.08",
         "manpower": 400,
         "ammunition": 800,
         "rations": 800,
@@ -13068,9 +13068,9 @@
         "requiredPeople": 5
     }, {
         "code": "8-4",
-        "name": "修订路线",
+        "name": "logistic.supportName.084",
         "time": 540,
-        "battleName": "第八战役",
+        "battleName": "logistic.battle.08",
         "manpower": 1500,
         "ammunition": 400,
         "rations": 400,
@@ -13080,9 +13080,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "9-1",
-        "name": "清理哨站",
+        "name": "logistic.supportName.091",
         "time": 30,
-        "battleName": "第九战役",
+        "battleName": "logistic.battle.09",
         "manpower": 0,
         "ammunition": 0,
         "rations": 100,
@@ -13092,9 +13092,9 @@
         "requiredPeople": 5
     }, {
         "code": "9-2",
-        "name": "探测信号",
+        "name": "logistic.supportName.092",
         "time": 90,
-        "battleName": "第九战役",
+        "battleName": "logistic.battle.09",
         "manpower": 180,
         "ammunition": 0,
         "rations": 180,
@@ -13104,9 +13104,9 @@
         "requiredPeople": 5
     }, {
         "code": "9-3",
-        "name": "快速营救",
+        "name": "logistic.supportName.093",
         "time": 270,
-        "battleName": "第九战役",
+        "battleName": "logistic.battle.09",
         "manpower": 750,
         "ammunition": 750,
         "rations": 0,
@@ -13116,9 +13116,9 @@
         "requiredPeople": 5
     }, {
         "code": "9-4",
-        "name": "紧急压制",
+        "name": "logistic.supportName.094",
         "time": 420,
-        "battleName": "第九战役",
+        "battleName": "logistic.battle.09",
         "manpower": 500,
         "ammunition": 900,
         "rations": 900,
@@ -13128,9 +13128,9 @@
         "requiredPeople": 5
     } ], [ {
         "code": "10-1",
-        "name": "协助验证",
+        "name": "logistic.supportName.101",
         "time": 40,
-        "battleName": "第十战役",
+        "battleName": "logistic.battle.10",
         "manpower": 140,
         "ammunition": 200,
         "rations": 0,
@@ -13140,9 +13140,9 @@
         "requiredPeople": 5
     }, {
         "code": "10-2",
-        "name": "前线支援",
+        "name": "logistic.supportName.102",
         "time": 100,
-        "battleName": "第十战役",
+        "battleName": "logistic.battle.10",
         "manpower": 0,
         "ammunition": 240,
         "rations": 180,
@@ -13152,9 +13152,9 @@
         "requiredPeople": 5
     }, {
         "code": "10-3",
-        "name": "腹地侦查",
+        "name": "logistic.supportName.103",
         "time": 320,
-        "battleName": "第十战役",
+        "battleName": "logistic.battle.10",
         "manpower": 0,
         "ammunition": 480,
         "rations": 480,
@@ -13164,9 +13164,9 @@
         "requiredPeople": 5
     }, {
         "code": "10-4",
-        "name": "夺取通讯",
+        "name": "logistic.supportName.104",
         "time": 600,
-        "battleName": "第十战役",
+        "battleName": "logistic.battle.10",
         "manpower": 660,
         "ammunition": 660,
         "rations": 660,
@@ -13181,22 +13181,22 @@
         "resource": [ {
             "_id": "res-01",
             "name": "manpower",
-            "label": "人力",
+            "label": "logistic.manpower",
             "icon": "/gf/static/img/resource/60px-Icon_manpower.png"
         }, {
             "_id": "res-02",
             "name": "ammunition",
-            "label": "弹药",
+            "label": "logistic.ammunition",
             "icon": "/gf/static/img/resource/60px-Icon_ammo.png"
         }, {
             "_id": "res-03",
             "name": "rations",
-            "label": "口粮",
+            "label": "logistic.rations",
             "icon": "/gf/static/img/resource/60px-Icon_ration.png"
         }, {
             "_id": "res-04",
             "name": "sparePart",
-            "label": "零件",
+            "label": "logistic.sparePart",
             "icon": "/gf/static/img/resource/60px-Icon_parts.png"
         } ]
     };
@@ -60908,13 +60908,13 @@
     n(14)(r, a);
     r.locals && (e.exports = r.locals);
 }, function(e, t, n) {
-    (t = e.exports = n(13)(!0)).push([ e.i, "html {\n  font-size: 12px;\n}\n.ant-drawer-content-wrapper .ant-drawer-body {\n  position: absolute;\n  top: 55px;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow-y: auto;\n}\n.container___qIezU_ {\n  width: 100%;\n  background-color: #efefef;\n}\n.container___qIezU_ .header___siVlEz {\n  background-color: #FFFFFF;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ {\n  display: flex;\n  width: 1200px;\n  height: 48px;\n  margin: 0 auto;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .blank___15tFVd {\n  flex: 1;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax {\n  color: #191919;\n  border-bottom: 4px solid transparent;\n  cursor: pointer;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 10px;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax:hover {\n  color: #FFC000;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax.active___1Zfk40 {\n  border-bottom-color: #FFC000;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax.active___1Zfk40:hover {\n  color: #191919;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax .anticon {\n  font-size: 1.6rem;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7 {\n  color: #191919;\n  border-bottom: 4px solid transparent;\n  cursor: pointer;\n  display: relative;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 10px;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7:hover {\n  color: #FFC000;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7.active___1Zfk40 {\n  border-bottom-color: #FFC000;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7.active___1Zfk40:hover {\n  color: #191919;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7 .ant-badge {\n  top: -12px;\n  font-size: 1em;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7 .anticon {\n  font-size: 1.6rem;\n}\n.container___qIezU_ .body___1L1WK5 {\n  width: 1200px;\n  margin: 10px auto 0;\n}\n.container___qIezU_ .footer___1CUeq3 {\n  margin-top: 10px;\n  background-color: #FFFFFF;\n}\n.container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej {\n  width: 1200px;\n  margin: 0 auto;\n  padding: 10px 0;\n}\n.container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej:before,\n.container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej:after {\n  content: '';\n  display: table;\n}\n.container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej:after {\n  clear: both;\n}\n.container___qIezU_ .footer___1CUeq3 .showAbout___1QewUd {\n  float: left;\n}\n.container___qIezU_ .footer___1CUeq3 .language___1Nik2c {\n  padding: 0 8px;\n  float: left;\n}\n.container___qIezU_ .footer___1CUeq3 .language___1Nik2c > span {\n  margin-right: 6px;\n}\n.container___qIezU_ .footer___1CUeq3 .language___1Nik2c .lang___3MPGlO {\n  width: 150px;\n}\n.container___qIezU_ .footer___1CUeq3 .otherInfo___3oRBEY {\n  text-align: center;\n}\n@media only screen and (max-device-width: 1024px) {\n  html {\n    font-size: 10px;\n  }\n  .ant-drawer-content-wrapper {\n    width: 100% !important;\n  }\n  .responsive-table .ant-table-scroll .ant-table-fixed {\n    width: 1184px !important;\n  }\n  .responsive-table .ant-table td {\n    white-space: nowrap;\n  }\n  .container___qIezU_ .header___siVlEz .headerContent___2bwUYZ {\n    width: 100%;\n  }\n  .container___qIezU_ .body___1L1WK5 {\n    width: 100%;\n  }\n  .container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej {\n    width: 100%;\n    padding: 10px 8px;\n  }\n}\n", "", {
+    (t = e.exports = n(13)(!0)).push([ e.i, "html {\n  font-size: 12px;\n}\n.ant-drawer-content-wrapper .ant-drawer-body {\n  position: absolute;\n  top: 55px;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow-y: auto;\n}\n.container___qIezU_ {\n  width: 100%;\n  background-color: #efefef;\n}\n.container___qIezU_ .header___siVlEz {\n  background-color: #FFFFFF;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ {\n  display: flex;\n  width: 1200px;\n  height: 48px;\n  margin: 0 auto;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .blank___15tFVd {\n  flex: 1;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax {\n  color: #191919;\n  border-bottom: 4px solid transparent;\n  cursor: pointer;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 10px;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax:hover {\n  color: #FFC000;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax.active___1Zfk40 {\n  border-bottom-color: #FFC000;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax.active___1Zfk40:hover {\n  color: #191919;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .setting___3hL1ax .anticon {\n  font-size: 1.6rem;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7 {\n  color: #191919;\n  border-bottom: 4px solid transparent;\n  cursor: pointer;\n  display: relative;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 10px;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7:hover {\n  color: #FFC000;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7.active___1Zfk40 {\n  border-bottom-color: #FFC000;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7.active___1Zfk40:hover {\n  color: #191919;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7 .ant-badge {\n  top: -12px;\n  font-size: 1em;\n}\n.container___qIezU_ .header___siVlEz .headerContent___2bwUYZ .version___xKGAe7 .anticon {\n  font-size: 1.6rem;\n}\n.container___qIezU_ .body___1L1WK5 {\n  width: 1200px;\n  margin: 10px auto 0;\n}\n.container___qIezU_ .footer___1CUeq3 {\n  margin-top: 10px;\n  background-color: #FFFFFF;\n}\n.container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej {\n  width: 1200px;\n  margin: 0 auto;\n  padding: 10px 0;\n}\n.container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej:before,\n.container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej:after {\n  content: '';\n  display: table;\n}\n.container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej:after {\n  clear: both;\n}\n.container___qIezU_ .footer___1CUeq3 .showAbout___1QewUd {\n  float: left;\n}\n.container___qIezU_ .footer___1CUeq3 .language___1Nik2c {\n  padding: 0 8px;\n  float: left;\n}\n.container___qIezU_ .footer___1CUeq3 .language___1Nik2c > span {\n  margin-right: 6px;\n}\n.container___qIezU_ .footer___1CUeq3 .language___1Nik2c .lang___3MPGlO {\n  width: 150px;\n}\n.container___qIezU_ .footer___1CUeq3 .otherInfo___3oRBEY {\n  text-align: center;\n}\n@media only screen and (max-device-width: 1024px) {\n  html {\n    font-size: 10px;\n  }\n  .ant-drawer-content-wrapper {\n    width: 100% !important;\n  }\n  .responsive-table .ant-table-scroll .ant-table-fixed {\n    width: 944px !important;\n  }\n  .responsive-table .ant-table td {\n    white-space: nowrap;\n  }\n  .container___qIezU_ .header___siVlEz .headerContent___2bwUYZ {\n    width: 100%;\n  }\n  .container___qIezU_ .body___1L1WK5 {\n    width: 100%;\n  }\n  .container___qIezU_ .footer___1CUeq3 .footerContainer___20LQej {\n    width: 100%;\n    padding: 10px 8px;\n  }\n}\n", "", {
         "version": 3,
         "sources": [ "D:/code/gf/GFDB-Web/src/components/layouts/page/index.less" ],
         "names": [],
-        "mappings": "AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,UAAU;EACV,SAAS;EACT,UAAU;EACV,QAAQ;EACR,iBAAiB;CAClB;AACD;EACE,YAAY;EACZ,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,cAAc;EACd,cAAc;EACd,aAAa;EACb,eAAe;CAChB;AACD;EACE,QAAQ;CACT;AACD;EACE,eAAe;EACf,qCAAqC;EACrC,gBAAgB;EAChB,aAAa;EACb,kBAAkB;EAClB,gBAAgB;CACjB;AACD;EACE,eAAe;CAChB;AACD;EACE,6BAA6B;CAC9B;AACD;EACE,eAAe;CAChB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,qCAAqC;EACrC,gBAAgB;EAChB,kBAAkB;EAClB,aAAa;EACb,kBAAkB;EAClB,gBAAgB;CACjB;AACD;EACE,eAAe;CAChB;AACD;EACE,6BAA6B;CAC9B;AACD;EACE,eAAe;CAChB;AACD;EACE,WAAW;EACX,eAAe;CAChB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,cAAc;EACd,oBAAoB;CACrB;AACD;EACE,iBAAiB;EACjB,0BAA0B;CAC3B;AACD;EACE,cAAc;EACd,eAAe;EACf,gBAAgB;CACjB;AACD;;EAEE,YAAY;EACZ,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;CACb;AACD;EACE,eAAe;EACf,YAAY;CACb;AACD;EACE,kBAAkB;CACnB;AACD;EACE,aAAa;CACd;AACD;EACE,mBAAmB;CACpB;AACD;EACE;IACE,gBAAgB;GACjB;EACD;IACE,uBAAuB;GACxB;EACD;IACE,yBAAyB;GAC1B;EACD;IACE,oBAAoB;GACrB;EACD;IACE,YAAY;GACb;EACD;IACE,YAAY;GACb;EACD;IACE,YAAY;IACZ,kBAAkB;GACnB;CACF",
+        "mappings": "AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,UAAU;EACV,SAAS;EACT,UAAU;EACV,QAAQ;EACR,iBAAiB;CAClB;AACD;EACE,YAAY;EACZ,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,cAAc;EACd,cAAc;EACd,aAAa;EACb,eAAe;CAChB;AACD;EACE,QAAQ;CACT;AACD;EACE,eAAe;EACf,qCAAqC;EACrC,gBAAgB;EAChB,aAAa;EACb,kBAAkB;EAClB,gBAAgB;CACjB;AACD;EACE,eAAe;CAChB;AACD;EACE,6BAA6B;CAC9B;AACD;EACE,eAAe;CAChB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,eAAe;EACf,qCAAqC;EACrC,gBAAgB;EAChB,kBAAkB;EAClB,aAAa;EACb,kBAAkB;EAClB,gBAAgB;CACjB;AACD;EACE,eAAe;CAChB;AACD;EACE,6BAA6B;CAC9B;AACD;EACE,eAAe;CAChB;AACD;EACE,WAAW;EACX,eAAe;CAChB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,cAAc;EACd,oBAAoB;CACrB;AACD;EACE,iBAAiB;EACjB,0BAA0B;CAC3B;AACD;EACE,cAAc;EACd,eAAe;EACf,gBAAgB;CACjB;AACD;;EAEE,YAAY;EACZ,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;CACb;AACD;EACE,eAAe;EACf,YAAY;CACb;AACD;EACE,kBAAkB;CACnB;AACD;EACE,aAAa;CACd;AACD;EACE,mBAAmB;CACpB;AACD;EACE;IACE,gBAAgB;GACjB;EACD;IACE,uBAAuB;GACxB;EACD;IACE,wBAAwB;GACzB;EACD;IACE,oBAAoB;GACrB;EACD;IACE,YAAY;GACb;EACD;IACE,YAAY;GACb;EACD;IACE,YAAY;IACZ,kBAAkB;GACnB;CACF",
         "file": "index.less",
-        "sourcesContent": [ ":global(html) {\n  font-size: 12px;\n}\n:global(.ant-drawer-content-wrapper) :global(.ant-drawer-body) {\n  position: absolute;\n  top: 55px;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow-y: auto;\n}\n.container {\n  width: 100%;\n  background-color: #efefef;\n}\n.container .header {\n  background-color: #FFFFFF;\n}\n.container .header .headerContent {\n  display: flex;\n  width: 1200px;\n  height: 48px;\n  margin: 0 auto;\n}\n.container .header .headerContent .blank {\n  flex: 1;\n}\n.container .header .headerContent .setting {\n  color: #191919;\n  border-bottom: 4px solid transparent;\n  cursor: pointer;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 10px;\n}\n.container .header .headerContent .setting:hover {\n  color: #FFC000;\n}\n.container .header .headerContent .setting.active {\n  border-bottom-color: #FFC000;\n}\n.container .header .headerContent .setting.active:hover {\n  color: #191919;\n}\n.container .header .headerContent .setting :global(.anticon) {\n  font-size: 1.6rem;\n}\n.container .header .headerContent .version {\n  color: #191919;\n  border-bottom: 4px solid transparent;\n  cursor: pointer;\n  display: relative;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 10px;\n}\n.container .header .headerContent .version:hover {\n  color: #FFC000;\n}\n.container .header .headerContent .version.active {\n  border-bottom-color: #FFC000;\n}\n.container .header .headerContent .version.active:hover {\n  color: #191919;\n}\n.container .header .headerContent .version :global(.ant-badge) {\n  top: -12px;\n  font-size: 1em;\n}\n.container .header .headerContent .version :global(.anticon) {\n  font-size: 1.6rem;\n}\n.container .body {\n  width: 1200px;\n  margin: 10px auto 0;\n}\n.container .footer {\n  margin-top: 10px;\n  background-color: #FFFFFF;\n}\n.container .footer .footerContainer {\n  width: 1200px;\n  margin: 0 auto;\n  padding: 10px 0;\n}\n.container .footer .footerContainer:before,\n.container .footer .footerContainer:after {\n  content: '';\n  display: table;\n}\n.container .footer .footerContainer:after {\n  clear: both;\n}\n.container .footer .showAbout {\n  float: left;\n}\n.container .footer .language {\n  padding: 0 8px;\n  float: left;\n}\n.container .footer .language > span {\n  margin-right: 6px;\n}\n.container .footer .language .lang {\n  width: 150px;\n}\n.container .footer .otherInfo {\n  text-align: center;\n}\n@media only screen and (max-device-width: 1024px) {\n  :global(html) {\n    font-size: 10px;\n  }\n  :global(.ant-drawer-content-wrapper) {\n    width: 100% !important;\n  }\n  :global(.responsive-table) :global(.ant-table-scroll) :global(.ant-table-fixed) {\n    width: 1184px !important;\n  }\n  :global(.responsive-table) :global(.ant-table) td {\n    white-space: nowrap;\n  }\n  .container .header .headerContent {\n    width: 100%;\n  }\n  .container .body {\n    width: 100%;\n  }\n  .container .footer .footerContainer {\n    width: 100%;\n    padding: 10px 8px;\n  }\n}\n" ],
+        "sourcesContent": [ ":global(html) {\n  font-size: 12px;\n}\n:global(.ant-drawer-content-wrapper) :global(.ant-drawer-body) {\n  position: absolute;\n  top: 55px;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  overflow-y: auto;\n}\n.container {\n  width: 100%;\n  background-color: #efefef;\n}\n.container .header {\n  background-color: #FFFFFF;\n}\n.container .header .headerContent {\n  display: flex;\n  width: 1200px;\n  height: 48px;\n  margin: 0 auto;\n}\n.container .header .headerContent .blank {\n  flex: 1;\n}\n.container .header .headerContent .setting {\n  color: #191919;\n  border-bottom: 4px solid transparent;\n  cursor: pointer;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 10px;\n}\n.container .header .headerContent .setting:hover {\n  color: #FFC000;\n}\n.container .header .headerContent .setting.active {\n  border-bottom-color: #FFC000;\n}\n.container .header .headerContent .setting.active:hover {\n  color: #191919;\n}\n.container .header .headerContent .setting :global(.anticon) {\n  font-size: 1.6rem;\n}\n.container .header .headerContent .version {\n  color: #191919;\n  border-bottom: 4px solid transparent;\n  cursor: pointer;\n  display: relative;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 10px;\n}\n.container .header .headerContent .version:hover {\n  color: #FFC000;\n}\n.container .header .headerContent .version.active {\n  border-bottom-color: #FFC000;\n}\n.container .header .headerContent .version.active:hover {\n  color: #191919;\n}\n.container .header .headerContent .version :global(.ant-badge) {\n  top: -12px;\n  font-size: 1em;\n}\n.container .header .headerContent .version :global(.anticon) {\n  font-size: 1.6rem;\n}\n.container .body {\n  width: 1200px;\n  margin: 10px auto 0;\n}\n.container .footer {\n  margin-top: 10px;\n  background-color: #FFFFFF;\n}\n.container .footer .footerContainer {\n  width: 1200px;\n  margin: 0 auto;\n  padding: 10px 0;\n}\n.container .footer .footerContainer:before,\n.container .footer .footerContainer:after {\n  content: '';\n  display: table;\n}\n.container .footer .footerContainer:after {\n  clear: both;\n}\n.container .footer .showAbout {\n  float: left;\n}\n.container .footer .language {\n  padding: 0 8px;\n  float: left;\n}\n.container .footer .language > span {\n  margin-right: 6px;\n}\n.container .footer .language .lang {\n  width: 150px;\n}\n.container .footer .otherInfo {\n  text-align: center;\n}\n@media only screen and (max-device-width: 1024px) {\n  :global(html) {\n    font-size: 10px;\n  }\n  :global(.ant-drawer-content-wrapper) {\n    width: 100% !important;\n  }\n  :global(.responsive-table) :global(.ant-table-scroll) :global(.ant-table-fixed) {\n    width: 944px !important;\n  }\n  :global(.responsive-table) :global(.ant-table) td {\n    white-space: nowrap;\n  }\n  .container .header .headerContent {\n    width: 100%;\n  }\n  .container .body {\n    width: 100%;\n  }\n  .container .footer .footerContainer {\n    width: 100%;\n    padding: 10px 8px;\n  }\n}\n" ],
         "sourceRoot": ""
     } ]), t.locals = {
         "container": "container___qIezU_",
@@ -63779,7 +63779,7 @@
                     "show": !0
                 });
             }
-        }, "一键咸鱼"), a.default.createElement("div", {
+        }, __("logistic.supportPlan.entryButton")), a.default.createElement("div", {
             "className": o.default.blank
         }));
     };
@@ -63843,13 +63843,13 @@
             }, e), s.default.createElement("div", {
                 "className": c.default.hours + " " + (y.resource && "times" === y.resource.type ? c.default.active : "")
             }, (0, u.dealHours)(e, n), "/h"));
-        }, x = [ {
-            "text": "总量降序",
+        }, x = "web" === m ? 4 : 1.5, M = [ {
+            "text": __("logistic.columns.filterTotalDescend"),
             "value": "total"
         }, {
-            "text": "时量降序",
+            "text": __("logistic.columns.filterYieldDescend"),
             "value": "times"
-        } ], M = function filterRes(e) {
+        } ], k = function filterRes(e) {
             return {
                 "filterIcon": s.default.createElement(o.default, {
                     "type": "down-square-o"
@@ -63859,7 +63859,7 @@
                         "size": "small",
                         "bordered": !0,
                         "className": c.default.filterListCon,
-                        "dataSource": x,
+                        "dataSource": M,
                         "renderItem": function renderItem(t) {
                             var n = t.text, r = t.value;
                             return s.default.createElement(a.default.Item, {
@@ -63882,62 +63882,59 @@
                     });
                 }
             };
-        }, k = [ {
-            "title": "后勤编号",
+        }, T = [ {
+            "title": __("logistic.columns.code"),
             "dataIndex": "code",
             "fixed": "left",
-            "width": 120,
+            "width": __("logistic.columns.code").length + x + "em",
             "render": function render(e, t) {
-                var n = t.code, r = t.battleName;
+                var n = t.code, r = t.name;
                 return s.default.createElement("span", {
                     "className": "codeLab"
                 }, s.default.createElement("div", {
-                    "className": "battleName hidden-xs"
-                }, r), s.default.createElement("div", {
                     "className": "code"
-                }, n));
+                }, n), s.default.createElement("div", {
+                    "className": "battleName"
+                }, __(r)));
             }
         }, {
-            "title": "后勤名称",
-            "dataIndex": "name",
-            "width": 110
-        }, {
-            "title": "任务时间",
+            "title": __("logistic.columns.time"),
             "dataIndex": "time",
-            "width": 110,
+            "fixed": "left",
+            "width": __("logistic.columns.time").length + x + "em",
             "render": function render(e) {
                 return s.default.createElement("div", {
                     "className": c.default.timeLab
                 }, (0, u.dealTime)(e));
             }
         }, i({
-            "title": "人力",
+            "title": __("logistic.manpower"),
             "dataIndex": "manpower",
-            "width": 100
-        }, M("manpower"), {
+            "width": 5 + x + "em"
+        }, k("manpower"), {
             "render": w
         }), i({
-            "title": "弹药",
+            "title": __("logistic.ammunition"),
             "dataIndex": "ammunition",
-            "width": 100
-        }, M("ammunition"), {
+            "width": 5 + x + "em"
+        }, k("ammunition"), {
             "render": w
         }), i({
-            "title": "口粮",
+            "title": __("logistic.rations"),
             "dataIndex": "rations",
-            "width": 100
-        }, M("rations"), {
+            "width": 5 + x + "em"
+        }, k("rations"), {
             "render": w
         }), i({
-            "title": "零件",
-            "width": 100,
-            "dataIndex": "sparePart"
-        }, M("sparePart"), {
+            "title": __("logistic.sparePart"),
+            "dataIndex": "sparePart",
+            "width": 5 + x + "em"
+        }, k("sparePart"), {
             "render": w
         }), {
-            "title": "资源总值",
-            "width": 120,
+            "title": __("logistic.columns.total"),
             "dataIndex": "total",
+            "width": __("logistic.columns.total").length + 1.4 + x + "em",
             "sorter": !0,
             "render": function render(e, t) {
                 var n = t.manpower, r = t.ammunition, a = t.rations, o = t.sparePart;
@@ -63946,8 +63943,8 @@
                 }, (0, l.sum)([ n, r, a, o ]));
             }
         }, {
-            "title": "额外道具",
-            "width": 120,
+            "title": __("logistic.columns.extra"),
+            "width": __("logistic.columns.extra").length + 1.4 + x + "em",
             "dataIndex": "extra",
             "filterIcon": s.default.createElement(o.default, {
                 "type": "down-square-o"
@@ -63955,7 +63952,7 @@
             "filterDropdown": function filterDropdown() {
                 return s.default.createElement(a.default, {
                     "size": "small",
-                    "header": "按产能效率排序",
+                    "header": __("logistic.columns.filterExtraYieldDescend"),
                     "bordered": !0,
                     "className": c.default.filterExtraCon,
                     "dataSource": d.default.extra,
@@ -63973,7 +63970,7 @@
                         }, s.default.createElement(o.default, {
                             "type": "check",
                             "className": c.default.check
-                        }), n);
+                        }), __(n));
                     }
                 });
             },
@@ -63982,25 +63979,25 @@
                     return s.default.createElement(h.ExtraItem, {
                         "key": e._id,
                         "icon": e.icon,
-                        "label": e.name
+                        "label": __(e.name)
                     });
                 });
             }
         }, {
-            "title": "队伍要求",
-            "dataIndex": "captainLevel",
+            "title": __("logistic.columns.teamRequire"),
+            "dataIndex": "teamRequire",
             "render": function render(e, t) {
                 var n = t.captainLevel, r = t.requiredPeople;
                 return s.default.createElement("div", {
                     "className": c.default.teamReq
                 }, s.default.createElement("div", null, s.default.createElement("span", {
                     "className": c.default.title
-                }, "队长等级："), n), s.default.createElement("div", null, s.default.createElement("span", {
+                }, __("logistic.columns.captainLevel"), "："), n), s.default.createElement("div", null, s.default.createElement("span", {
                     "className": c.default.title
-                }, "队伍人数："), r));
+                }, __("logistic.columns.captainNumber"), "："), r));
             }
-        } ], T = i({}, v, {
-            "columns": k,
+        } ], C = i({}, v, {
+            "columns": T,
             "dataSource": b,
             "rowKey": "code",
             "className": "responsive-table " + c.default.table,
@@ -64014,7 +64011,7 @@
         });
         return s.default.createElement("div", {
             "className": c.default.table
-        }, s.default.createElement(r.default, T));
+        }, s.default.createElement(r.default, C));
     };
 }, function(e, t, n) {
     "use strict";
@@ -64179,7 +64176,7 @@
                         "span": 14
                     }
                 }, m = {
-                    "title": "筹划弹窗",
+                    "title": __("logistic.supportPlan.countModalName"),
                     "visible": i,
                     "width": "70%",
                     "footer": null,
@@ -64191,7 +64188,7 @@
                     }
                 };
                 return u.default.createElement(r.default, m, u.default.createElement(s.default, null, u.default.createElement(h, l({}, p, {
-                    "label": "后勤时数"
+                    "label": __("logistic.supportPlan.hourLabel")
                 }), c("hour", {
                     "initialValue": 0
                 })(u.default.createElement(o.default, {
@@ -64204,7 +64201,7 @@
                         "24": 24
                     }
                 }))), u.default.createElement(h, l({}, p, {
-                    "label": "后勤分钟数"
+                    "label": __("logistic.supportPlan.minuteLabel")
                 }), c("min", {
                     "initialValue": 0
                 })(u.default.createElement(o.default, {
@@ -64216,24 +64213,24 @@
                         "50": 50
                     }
                 }))), u.default.createElement(h, l({}, p, {
-                    "label": "资源"
+                    "label": __("logistic.supportPlan.resourceLabel")
                 }), c("resource", {
                     "initialValue": []
                 })(u.default.createElement(f, {
                     "options": d.default.resource.map(function(e) {
                         return {
-                            "label": e.label,
+                            "label": __(e.label),
                             "value": e.name
                         };
                     })
                 }))), u.default.createElement(h, l({}, p, {
-                    "label": "额外道具"
+                    "label": __("logistic.supportPlan.extraLabel")
                 }), c("extra", {
                     "initialValue": []
                 })(u.default.createElement(f, {
                     "options": d.default.extra.map(function(e) {
                         return {
-                            "label": e.name,
+                            "label": __(e.name),
                             "value": e._id
                         };
                     })
@@ -64247,7 +64244,7 @@
                             }));
                         });
                     }
-                }, "试算"));
+                }, __("logistic.supportPlan.countButton")));
             }
         } ]), ModalPlan;
     }();
@@ -64335,9 +64332,9 @@
         };
     }
     t.default = function DrawerPlan(e) {
-        var t = e.dispatch, n = e.app, c = e.quest, u = {
-            "title": "试算结果",
-            "visible": c.drawerPlanVisible,
+        var t = e.dispatch, n = e.app, c = e.quest, u = c.drawerPlanVisible, d = {
+            "title": __("logistic.supportPlan.resultModalName"),
+            "visible": u,
             "width": "80%",
             "placement": "right",
             "onClose": function onClose() {
@@ -64346,23 +64343,23 @@
                     "show": !1
                 });
             }
-        }, d = {
-            "dispatch": t,
-            "quest": c
         }, h = {
             "dispatch": t,
-            "app": n,
             "quest": c
         }, f = {
             "dispatch": t,
             "app": n,
             "quest": c
+        }, p = {
+            "dispatch": t,
+            "app": n,
+            "quest": c
         };
-        return a.default.createElement(r.default, u, a.default.createElement("div", null, a.default.createElement(i.default, d), a.default.createElement("div", {
+        return a.default.createElement(r.default, d, a.default.createElement("div", null, a.default.createElement(i.default, h), a.default.createElement("div", {
             "className": o.default.title
-        }, "推荐后勤"), a.default.createElement(s.default, h), a.default.createElement("br", null), a.default.createElement("div", {
+        }, __("logistic.supportPlan.recommendList")), a.default.createElement(s.default, f), a.default.createElement("br", null), a.default.createElement("div", {
             "className": o.default.title
-        }, "筛选列表"), a.default.createElement(l.default, f)));
+        }, __("logistic.supportPlan.filterList")), a.default.createElement(l.default, p)));
     };
 }, function(e, t, n) {
     (t = e.exports = n(13)(!0)).push([ e.i, ".title___1K8P7H {\n  padding: 0 6px;\n  background-color: #191919;\n  color: #FFFFFF;\n  height: 26px;\n  line-height: 26px;\n  font-size: 18px;\n}\n.resizeTable___16XdiV .ant-table-scroll .ant-table-fixed {\n  width: 800px !important;\n}\n.resizeTable___16XdiV .ant-table td {\n  white-space: nowrap;\n}\n", "", {
@@ -64392,7 +64389,7 @@
     t.default = function ConditionLab(e) {
         e.dispatch;
         var t = e.quest.planCondition, n = function showNothing() {
-            return r.default.createElement("div", null, "暂无选择");
+            return r.default.createElement("div", null, __("logistic.supportPlan.noSelect"));
         };
         return r.default.createElement("div", null, r.default.createElement("div", {
             "className": a.default.condition
@@ -64400,31 +64397,31 @@
             "className": a.default.item + " " + a.default.timeLab
         }, r.default.createElement("div", {
             "className": a.default.title
-        }, "后勤总时长："), r.default.createElement("div", {
+        }, __("logistic.supportPlan.totalTimeLab"), "："), r.default.createElement("div", {
             "className": a.default.text
         }, r.default.createElement("span", {
             "className": a.default.timeTxt
-        }, t.hour), "时", r.default.createElement("span", {
+        }, t.hour), "H", r.default.createElement("span", {
             "className": a.default.timeTxt
-        }, t.min), "分")), r.default.createElement("div", {
+        }, t.min), "M")), r.default.createElement("div", {
             "className": a.default.item + " " + a.default.resLab
         }, r.default.createElement("div", {
             "className": a.default.title
-        }, "需求资源："), r.default.createElement("div", {
+        }, __("logistic.supportPlan.needResLab"), "："), r.default.createElement("div", {
             "className": a.default.text
         }, t.resource && t.resource.length ? function mapRes(e) {
             return e.map(function(e) {
                 return r.default.createElement("span", {
                     "key": e
-                }, (0, i.find)(c, function(t) {
+                }, __((0, i.find)(c, function(t) {
                     return t.name === e;
-                }).label);
+                }).label));
             });
         }(t.resource) : n())), r.default.createElement("div", {
             "className": a.default.item + " " + a.default.extLab
         }, r.default.createElement("div", {
             "className": a.default.title
-        }, "需求道具："), r.default.createElement("div", {
+        }, __("logistic.supportPlan.needExtraLab"), "："), r.default.createElement("div", {
             "className": a.default.text
         }, t.extra && t.extra.length ? function mapExtra(e) {
             return e.map(function(e) {
@@ -64434,7 +64431,7 @@
                 return r.default.createElement(s.ExtraItem, {
                     "key": e,
                     "icon": t.icon,
-                    "label": t.name
+                    "label": __(t.name)
                 });
             });
         }(t.extra) : n()))));
@@ -64498,64 +64495,64 @@
             }, e), o.default.createElement("div", {
                 "className": s.default.hours + " " + (m.resource && "times" === m.resource.type ? s.default.active : "")
             }, (0, l.dealHours)(e, n), "/h"));
-        }, v = a({}, f, {
-            "columns": [ {
-                "title": "后勤编号",
-                "dataIndex": "code",
-                "fixed": "left",
-                "width": 100
-            }, {
-                "title": "任务时间",
-                "dataIndex": "time",
-                "width": 100,
-                "render": function render(e) {
-                    return o.default.createElement("div", {
-                        "className": s.default.timeLab
-                    }, (0, l.dealTime)(e));
-                }
-            }, {
-                "title": "人力",
-                "dataIndex": "manpower",
-                "width": 90,
-                "render": g
-            }, {
-                "title": "弹药",
-                "dataIndex": "ammunition",
-                "width": 90,
-                "render": g
-            }, {
-                "title": "口粮",
-                "dataIndex": "rations",
-                "width": 90,
-                "render": g
-            }, {
-                "title": "零件",
-                "dataIndex": "sparePart",
-                "width": 90,
-                "render": g
-            }, {
-                "title": "资源总值",
-                "dataIndex": "total",
-                "width": 90,
-                "render": function render(e, t) {
-                    var n = t.manpower, r = t.ammunition, a = t.rations, l = t.sparePart;
-                    return o.default.createElement("div", {
-                        "className": s.default.totalLab
-                    }, (0, i.sum)([ n, r, a, l ]));
-                }
-            }, {
-                "title": "额外道具",
-                "dataIndex": "extra",
-                "render": function render(e) {
-                    return e.map(function(e) {
-                        return o.default.createElement(c.ExtraItem, {
-                            "key": e._id,
-                            "icon": e.icon,
-                            "label": e.name
-                        });
+        }, v = "web" === d ? 4 : 1.5, b = [ {
+            "title": __("logistic.columns.code"),
+            "dataIndex": "code",
+            "fixed": "left",
+            "width": __("logistic.columns.code").length + v + "em"
+        }, {
+            "title": __("logistic.columns.time"),
+            "dataIndex": "time",
+            "width": __("logistic.columns.time").length + v + "em",
+            "render": function render(e) {
+                return o.default.createElement("div", {
+                    "className": s.default.timeLab
+                }, (0, l.dealTime)(e));
+            }
+        }, {
+            "title": __("logistic.manpower"),
+            "dataIndex": "manpower",
+            "width": 3 + v + "em",
+            "render": g
+        }, {
+            "title": __("logistic.ammunition"),
+            "dataIndex": "ammunition",
+            "width": 3 + v + "em",
+            "render": g
+        }, {
+            "title": __("logistic.rations"),
+            "dataIndex": "rations",
+            "width": 3 + v + "em",
+            "render": g
+        }, {
+            "title": __("logistic.sparePart"),
+            "dataIndex": "sparePart",
+            "width": 3 + v + "em",
+            "render": g
+        }, {
+            "title": __("logistic.columns.total"),
+            "dataIndex": "total",
+            "width": __("logistic.columns.total").length + 1.4 + v + "em",
+            "render": function render(e, t) {
+                var n = t.manpower, r = t.ammunition, a = t.rations, l = t.sparePart;
+                return o.default.createElement("div", {
+                    "className": s.default.totalLab
+                }, (0, i.sum)([ n, r, a, l ]));
+            }
+        }, {
+            "title": __("logistic.columns.extra"),
+            "dataIndex": "extra",
+            "render": function render(e) {
+                return e.map(function(e) {
+                    return o.default.createElement(c.ExtraItem, {
+                        "key": e._id,
+                        "icon": e.icon,
+                        "label": __(e.name)
                     });
-                }
-            } ],
+                });
+            }
+        } ], y = a({}, f, {
+            "columns": b,
             "dataSource": p,
             "rowKey": "code",
             "className": s.default.table + " " + u.default.resizeTable,
@@ -64565,7 +64562,7 @@
             },
             "pagination": !1
         });
-        return o.default.createElement("div", null, o.default.createElement(r.default, v));
+        return o.default.createElement("div", null, o.default.createElement(r.default, y));
     };
 }, function(e, t, n) {
     "use strict";
@@ -64597,64 +64594,64 @@
             }, e), o.default.createElement("div", {
                 "className": s.default.hours + " " + (m.resource && "times" === m.resource.type ? s.default.active : "")
             }, (0, l.dealHours)(e, n), "/h"));
-        }, v = a({}, f, {
-            "columns": [ {
-                "title": "后勤编号",
-                "dataIndex": "code",
-                "fixed": "left",
-                "width": 100
-            }, {
-                "title": "任务时间",
-                "dataIndex": "time",
-                "width": 100,
-                "render": function render(e) {
-                    return o.default.createElement("div", {
-                        "className": s.default.timeLab
-                    }, (0, l.dealTime)(e));
-                }
-            }, {
-                "title": "人力",
-                "dataIndex": "manpower",
-                "width": 90,
-                "render": g
-            }, {
-                "title": "弹药",
-                "dataIndex": "ammunition",
-                "width": 90,
-                "render": g
-            }, {
-                "title": "口粮",
-                "dataIndex": "rations",
-                "width": 90,
-                "render": g
-            }, {
-                "title": "零件",
-                "dataIndex": "sparePart",
-                "width": 90,
-                "render": g
-            }, {
-                "title": "资源总值",
-                "dataIndex": "total",
-                "width": 90,
-                "render": function render(e, t) {
-                    var n = t.manpower, r = t.ammunition, a = t.rations, l = t.sparePart;
-                    return o.default.createElement("div", {
-                        "className": s.default.totalLab
-                    }, (0, i.sum)([ n, r, a, l ]));
-                }
-            }, {
-                "title": "额外道具",
-                "dataIndex": "extra",
-                "render": function render(e) {
-                    return e.map(function(e) {
-                        return o.default.createElement(c.ExtraItem, {
-                            "key": e._id,
-                            "icon": e.icon,
-                            "label": e.name
-                        });
+        }, v = "web" === d ? 4 : 1.5, b = [ {
+            "title": __("logistic.columns.code"),
+            "dataIndex": "code",
+            "fixed": "left",
+            "width": __("logistic.columns.code").length + v + "em"
+        }, {
+            "title": __("logistic.columns.time"),
+            "dataIndex": "time",
+            "width": __("logistic.columns.time").length + v + "em",
+            "render": function render(e) {
+                return o.default.createElement("div", {
+                    "className": s.default.timeLab
+                }, (0, l.dealTime)(e));
+            }
+        }, {
+            "title": __("logistic.manpower"),
+            "dataIndex": "manpower",
+            "width": 5 + v + "em",
+            "render": g
+        }, {
+            "title": __("logistic.ammunition"),
+            "dataIndex": "ammunition",
+            "width": 5 + v + "em",
+            "render": g
+        }, {
+            "title": __("logistic.rations"),
+            "dataIndex": "rations",
+            "width": 5 + v + "em",
+            "render": g
+        }, {
+            "title": __("logistic.sparePart"),
+            "dataIndex": "sparePart",
+            "width": 5 + v + "em",
+            "render": g
+        }, {
+            "title": __("logistic.columns.total"),
+            "dataIndex": "total",
+            "width": 90,
+            "render": function render(e, t) {
+                var n = t.manpower, r = t.ammunition, a = t.rations, l = t.sparePart;
+                return o.default.createElement("div", {
+                    "className": s.default.totalLab
+                }, (0, i.sum)([ n, r, a, l ]));
+            }
+        }, {
+            "title": __("logistic.columns.extra"),
+            "dataIndex": "extra",
+            "render": function render(e) {
+                return e.map(function(e) {
+                    return o.default.createElement(c.ExtraItem, {
+                        "key": e._id,
+                        "icon": e.icon,
+                        "label": __(e.name)
                     });
-                }
-            } ],
+                });
+            }
+        } ], y = a({}, f, {
+            "columns": b,
             "dataSource": p,
             "rowKey": "code",
             "className": s.default.table + " " + u.default.resizeTable,
@@ -64664,7 +64661,7 @@
             },
             "pagination": !1
         });
-        return o.default.createElement("div", null, o.default.createElement(r.default, v));
+        return o.default.createElement("div", null, o.default.createElement(r.default, y));
     };
 }, function(e, t, n) {
     "use strict";
@@ -69529,12 +69526,12 @@
         "dot": g["bool"],
         "overflowCount": g["number"]
     };
-}, , , , , , , , , , function(e, t, n) {
+}, , , , , , , , , , , , , function(e, t, n) {
     "use strict";
     n(1207);
     var r = _interopRequireDefault(n(111)), a = _interopRequireDefault(n(1491)), o = _interopRequireDefault(n(1492));
     n(239);
-    var i = n(1494), s = _interopRequireDefault(n(240)), l = _interopRequireDefault(n(139)), c = _interopRequireDefault(n(1765));
+    var i = n(1494), s = _interopRequireDefault(n(240)), l = _interopRequireDefault(n(139)), c = _interopRequireDefault(n(1768));
     function _interopRequireDefault(e) {
         return e && e.__esModule ? e : {
             "default": e
@@ -69557,8 +69554,9 @@
             for (var r in n) Object.prototype.hasOwnProperty.call(n, r) && (e[r] = n[r]);
         }
         return e;
-    }, a = n(1766);
+    }, a = n(1769), o = n(1770);
     e.exports = r({}, a, {
+        "logistic": o,
         "name": "zh-hant",
         "Hello text": "你好 歡迎來到少前攻略站",
         "menus": [ {
@@ -70944,5 +70942,107 @@
         "ally_team-10090031": "格里芬",
         "ally_team-10090032": "格里芬",
         "placeholder": ""
+    };
+}, function(e) {
+    e.exports = {
+        "columns": {
+            "code": "後勤編號",
+            "time": "任務時間",
+            "name": "後勤名稱",
+            "total": "資源總量",
+            "extra": "額外道具",
+            "teamRequire": "隊伍要求",
+            "captainLevel": "隊長等級",
+            "captainNumber": "隊伍人數",
+            "filterTotalDescend": "總量降序",
+            "filterYieldDescend": "時量降序",
+            "filterExtraYieldDescend": "按產能效率降序"
+        },
+        "manpower": "人力",
+        "ammunition": "彈藥",
+        "rations": "口糧",
+        "sparePart": "零件",
+        "extra": {
+            "e00": "快建",
+            "e01": "快修",
+            "e02": "人形契",
+            "e03": "裝備契",
+            "e04": "採購幣"
+        },
+        "battle": {
+            "10": "第十戰役",
+            "00": "第零戰役",
+            "01": "第一戰役",
+            "02": "第二戰役",
+            "03": "第三戰役",
+            "04": "第四戰役",
+            "05": "第五戰役",
+            "06": "第六戰役",
+            "07": "第七戰役",
+            "08": "第八戰役",
+            "09": "第九戰役"
+        },
+        "supportName": {
+            "101": "協助驗證",
+            "102": "前線支援",
+            "103": "腹地偵查",
+            "104": "奪取通訊",
+            "001": "應援訓練",
+            "002": "梯隊集訓",
+            "003": "特種支援",
+            "004": "聯合演習",
+            "011": "熱身運動",
+            "012": "巡邏戒嚴",
+            "013": "傷員搬運",
+            "014": "全境搜查",
+            "021": "前線偵查",
+            "022": "後方運輸",
+            "023": "工廠快遞",
+            "024": "採集數據",
+            "031": "強化工事",
+            "032": "截獲密報",
+            "033": "交通管制",
+            "034": "封鎖密道",
+            "041": "視野支援",
+            "042": "切斷補給",
+            "043": "竊取地圖",
+            "044": "坐標定位",
+            "051": "例行檢閱",
+            "052": "現場救援",
+            "053": "路線追蹤",
+            "054": "維穩工作",
+            "061": "協助救援",
+            "062": "遠程偵查",
+            "063": "提取科技",
+            "064": "戰場搜索",
+            "071": "監視據點",
+            "072": "接應隊友",
+            "073": "清理道路",
+            "074": "追蹤傀儡",
+            "081": "籌集資料",
+            "082": "解析碎片",
+            "083": "勘探現場",
+            "084": "修訂路線",
+            "091": "清理哨站",
+            "092": "探測信號",
+            "093": "快速營救",
+            "094": "緊急壓制"
+        },
+        "supportPlan": {
+            "entryButton": "試算後勤",
+            "countModalName": "試算彈窗",
+            "hourLabel": "後勤時數",
+            "minuteLabel": "後勤分鐘數",
+            "resourceLabel": "資源",
+            "extraLabel": "額外道具",
+            "countButton": "試算",
+            "resultModalName": "試算結果",
+            "recommendList": "推薦後勤",
+            "filterList": "篩選列表",
+            "totalTimeLab": "後勤總時長",
+            "needResLab": "需求資源",
+            "needExtraLab": "需求道具",
+            "noSelect": "暫無選擇"
+        }
     };
 } ]);
